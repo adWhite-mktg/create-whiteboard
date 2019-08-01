@@ -17,7 +17,8 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "prepublish": "yarn run build"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
